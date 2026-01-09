@@ -8,8 +8,7 @@
 - [Results](#results)
 - [Dataset](#dataset)
 - [Methodology](#methodology)
-- [Visualizations](#vizualisations)
-- [Performance Metrics](#performance_metrics)
+- [Performance_Metrics](#performance_metrics)
 
 ---
 
@@ -24,6 +23,7 @@ This project developes a machine learning pipeline to predict the habitability o
 - **94.4% Precision** (minimal false alarms)
 - Only **3 errors** out of 1,844 test predictions
 
+---
 
 ## Results
 
@@ -38,6 +38,8 @@ This project developes a machine learning pipeline to predict the habitability o
 | **Specificity** | 99.95% | Rarely miscclassifies non-habitable |
 | **ROC_AUC** | 0.998 | Near-perfect discrimination |
 | **PR_AUC** | 0.9516 | Excellent on imbalanced data |
+
+---
 
 ## Dataset
 
@@ -72,6 +74,8 @@ This project developes a machine learning pipeline to predict the habitability o
 - **Train_set**: 67% (3755 planets from 2778 unique stars)
 - **Test_set**: 33% (1844 planets from 1385 unique stars)
 - **Validation**: 3-fold stratified group cross-validation
+
+---
 
 ## Methodology
 
@@ -120,23 +124,9 @@ Grouped Cross-Validation to prevent data leakage:
  - Test set contains completely unseen star systems
  - Ensures model generalizes to new discoveries
 
-## Vizualization
-Confusion Matrix
+---
 
-! [Getting Started] (./results/confusion_matrix.png)
-! [Gettting Started] (/results/confusion_matrix.png)
-
-ROC and Precision-Recall Curves
-
-! [Getting Started] (./results/roc_pr_curves.png)
-! [Gettting Started] (/results/roc_pr_curves.png)
-
-Feature Importance
-
-! [Getting Started] (./results/feature_importance.png)
-! [Gettting Started] (/results/feature_importance.png)
-
-## Performance Metrics
+## Performance_Metrics
 
 ### Cross Validation Results
 
